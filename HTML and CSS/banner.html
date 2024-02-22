@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <style>
+        .benner {
+            height: 100vh;
+            position: relative;
+        }
+
+        .benner .bg-img {
+            width: 100%;
+            height: 100%;
+            background-image: url(Assets/images/mic.jpg);
+            background-size: cover;
+        }
+
+        .benner .content {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg,
+                    rgba(255, 255, 255, 0.2) 10%,
+                    rgba(255, 255, 255, 1) 60%);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            text-align: center;
+            font-size: 1.5rem;
+
+            >div {
+                padding-right: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="benner">
+        <div class="bg-img">
+        </div>
+        <div class="content">
+            <div>
+                <h1>Your Daily</h1>
+                <h4>
+                    Lorem ipsum dolor sit <br> amet. Lorem, ipsum.
+                </h4>
+                <h5>Play Now</h5>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.parent{
+    border: 5px solid red;
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* 
+    flex start
+    flex end
+    center 
+    space-between
+    space-around 
+    space-evenly
+    */
+     align-items: start;
+
+    > div{
+        border: 3px solid green;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+}
+/* .child1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    align-self: flex-start;
+}
+.child2{
+    align-self: center;
+}
+.child3{
+    align-self: flex-end;
+} */

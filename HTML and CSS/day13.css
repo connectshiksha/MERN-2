@@ -1,0 +1,49 @@
+section {
+  width: 100%;
+  height: 80vh;
+  border: 5px solid red;
+  border-style: dashed;
+
+  /* background-color: aqua; */
+  background-image: url("Assets/images/mic.jpg");
+  background-size: cover;
+  /* backsize : width height */
+  /* cover(width cover) contain(no crop/cut actual) auto */
+  background-repeat: no-repeat;
+  /* repeat no-repeat reapt-x reapt-y */
+  background-position: right center;
+  background-attachment: fixed;
+  /* scroll fixed */
+  background-clip: border-box;
+  /* backgrond origin is actual size img rkhta hai and 
+  padding-box border-box content-box
+   */
+  /* vertical horizental */
+  padding: 10px;
+
+  > div {
+    opacity: 0.5;
+    > p {
+      background-color: rgb(255, 221, 0);
+      color: white;
+      opacity: 1;
+
+      > span {
+        background-color: red;
+      }
+    }
+  }
+}
+/* 
+  👉 CSS Background
+CSS Background Color
+CSS Background Image
+CSS Background Repeat
+CSS Background Attachment
+CSS Background Size
+CSS Background Clip
+CSS Background Origin
+CSS Background Position
+CSS Opacity/Transparency
+
+  */

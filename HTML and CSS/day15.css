@@ -1,0 +1,64 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+div {
+  border: 5px solid red;
+  background-color: rgb(0, 193, 138);
+  padding: 20px 10px 5px 4px;
+  /* top-bottom left-right */
+  /* top left-right bottom */
+  /* top right bottom left */
+  margin: 20px 10px 5px 2px;
+  max-width: 700px;
+  min-width: 500px;
+  outline: 10px solid yellow;
+  /* border or margin k bech ka area outline */
+  height: 300px;
+}
+/* total
+total-width = width + left-right padding + lf-rt border + lf-rt margin
+200 + 14 + 10 + 12 = 236
+280+20+10+20 = 330
+250+20+10+10 = 290
+200+20+10+20 = 250
+236
+total-height = height + tp-bt padding + tp-bt border + tp-bt margin
+300 + 25 + 10 + 25 = 360
+360
+300+25+10+25 = 360
+
+
+
+*/
+/* p {
+  background-color: aqua;
+  padding: 10px;
+} */
+
+/* <!-- 
+    padding --> ander ki space
+    margin  --> bahar ki space
+    border
+    width
+    maxwidth
+    outline
+--> */
+
+section{
+  border: 2px solid blue;
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  transition: all ease .25s;
+  display: inline-block;
+  /* horizental vertical blur scal color */
+  box-shadow:0px 0px 12px 1px rgb(61, 35, 255) ;
+}
+/* section:hover{
+            
+  
+} */

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: 2fr 6fr 4fr;
+  grid-template-rows: 2fr 9fr 1fr;
+  grid-template-areas:
+    "lf-bar content head"
+    ". foot foot"
+    "rt-bar rt-bar .";
+  height: 100vh;
+  /* gap: 10px 0px;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: space-between;
+  align-items: end;
+   */
+}
+.box {
+  background-color: rgb(255, 136, 136);
+  border: 2px solid;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  grid-area: head;
+}
+.footer {
+  grid-area: foot;
+}
+.left-bar {
+  grid-area: lf-bar;
+}
+.right-bar {
+  grid-area: rt-bar;
+}
+.content {
+  grid-area: content;
+}
